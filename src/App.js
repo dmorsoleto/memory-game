@@ -113,7 +113,7 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <h3>Jogo da Memória - Pokemon</h3>
+        <h3>Jogo da Memória - Times Brasileiros</h3>
         <div>
           Selecione duas cartas iguais para que elas sumam do tabuleiro
         </div>
