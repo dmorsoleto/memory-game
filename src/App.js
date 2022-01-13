@@ -87,11 +87,11 @@ export default function App() {
     return () => {
       clearTimeout(timeout);
     };
-  }, [openCards]);
+  }, [openCards, evaluate]);
 
   useEffect(() => {
     checkCompletion();
-  }, [clearedCards]);
+  }, [clearedCards, checkCompletion]);
 
   const checkIsFlipped = (index) => {
     return openCards.includes(index);
